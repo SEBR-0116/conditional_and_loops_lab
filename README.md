@@ -24,7 +24,11 @@ Create 3 values, a checkingAccount, a savingsAccount, and an action type, then a
 
 ## - High Five!
 
-Create a for loop that starts at 0, ends at 5, and logs a number that increases by 5 each time it is run.
+Create a for loop that starts at 0, ends at 50, and logs a number that increases by 5 each time it is run.
+
+## - Its Hip to Loop Squares
+
+Run a For Loop that starts at 0, ends at 10, and logs each number squared (your answer should be 0, 1, 4, 9, 25....)
 
 ## - F F F Foods
 
