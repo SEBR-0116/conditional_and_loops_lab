@@ -84,9 +84,16 @@ let grade = 77
 
 // 6 - Its Hip to Loop Squares
 
-for ( let i = 0; i <=10 ; i++) {
-    console.log(i * i)
-}
+// for ( let i = 0; i <=10 ; i++) {
+//     console.log(i * i)
+// }
 // end of Its Hip to Loop Squares
 
-// 
+// 7 - F F F Foods
+
+let foods = [ "Cake", "Burger", "Salad", "Fruit", "Sushi", "Fish", "Fried Chicken"];
+for (let i = 0; i< foods.length; i++) {
+    if (foods[i].charAt(0) === "F") 
+    console.log(foods[i]);
+}
+// end of F F F Foods
