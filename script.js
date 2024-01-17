@@ -7,3 +7,10 @@ if (temperature > 75) {
 }
 
 
+//## 2  - Team Player
+let players = ['John', 'Johnny', 'Jack', 'Joe', 'Joseph', 'James', 'Jim', 'Jedward', 'Jedediah']
+if (players.length >= 9) {
+    console.log('Play ball!')
+} else {
+    console.log('not enough players')
+}
