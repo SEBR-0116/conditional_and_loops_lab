@@ -88,8 +88,13 @@ switch(actionType) {
 }
 */
 //High Five!
-let num = 0;
+/*let num = 0;
 for(let i = 0; i < 50; i++) {
     console.log(num);
     num = num + 5;
+}
+*/
+//It's Hip to Loop Squares
+for(let i = 0; i < 10; i++) {
+    console.log((i ** 2));
 }
