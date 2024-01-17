@@ -24,7 +24,7 @@
 
 //3 - Grade Assinger -
 
-let grade = 77
+//let grade = 77
 
 // if(isNaN(grade)){
 //     console.log("Please enter a valid number")
