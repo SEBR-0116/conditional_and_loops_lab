@@ -48,30 +48,35 @@ let grade = 77
 
 //4 - ATM Function
 
-let checkingAccount = 1000;
-let savingsAccount = 500;
-let actionType = "withdraw";
+// let checkingAccount = 1000;
+// let savingsAccount = 500;
+// let actionType = "withdraw";
 
-switch (actionType) {
-    case "withdraw":
-        checkingAccount = checkingAccount - 100;
-        console.log("Action type: " + actionType);
-        console.log("Your checking account balance is " + checkingAccount);
-        console.log("Your savings account balance is " + savingsAccount);
-        break;
-    case "deposit":
-        checkingAccount = checkingAccount + 100;
-        console.log("Action type: " + actionType);
-        console.log("Your checking account balance is " + checkingAccount);
-        console.log("Your savings account balance is " + savingsAccount);
-        break;
-    case "transfer":
-        checkingAccount = checkingAccount - 100;
-        savingsAccount = savingsAccount + 100;
-        console.log("Action type: " + actionType);
-        console.log("Your checking account balance is " + checkingAccount);
-        console.log("Your savings account balance is " + savingsAccount);
-        break;
-}
+// switch (actionType) {
+//     case "withdraw":
+//         checkingAccount = checkingAccount - 100;
+//         console.log("Action type: " + actionType);
+//         console.log("Your checking account balance is " + checkingAccount);
+//         console.log("Your savings account balance is " + savingsAccount);
+//         break;
+//     case "deposit":
+//         checkingAccount = checkingAccount + 100;
+//         console.log("Action type: " + actionType);
+//         console.log("Your checking account balance is " + checkingAccount);
+//         console.log("Your savings account balance is " + savingsAccount);
+//         break;
+//     case "transfer":
+//         checkingAccount = checkingAccount - 100;
+//         savingsAccount = savingsAccount + 100;
+//         console.log("Action type: " + actionType);
+//         console.log("Your checking account balance is " + checkingAccount);
+//         console.log("Your savings account balance is " + savingsAccount);
+//         break;
+// }
 //end of ATM Function
 
+// 5 - High Five!
+
+for (let i = 0; i <= 50 ; i += 5){
+    console.log(i)
+}
