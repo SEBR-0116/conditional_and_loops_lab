@@ -17,7 +17,7 @@ else {
 }
 */
 //Grade Assigner
-let grade = 100;
+/*let grade = 100;
 if(grade > 100 || grade < 0) {
     console.log(`Please enter a valid grade(0-100)`)
 }
@@ -38,4 +38,51 @@ else if(grade >= 0) {
 }
 else {
     console.log(`Please enter a valid grade(number value 0-100)`)
+}
+*/
+//ATM Function
+let checkingAccount = 250;
+let savingsAccount = 1000;
+let actionType = 1;
+switch(actionType) {
+    case 1:
+        //Withdraw checking
+        checkingAccount = checkingAccount - 100;
+        console.log(`Withdraw from checking account`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    case 2:
+        //Withdraw savings
+        savingsAccount = savingsAccount - 100;
+        console.log(`Withdraw from savings account`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    case 3:
+        //Deposit checking
+        checkingAccount = checkingAccount + 100;
+        console.log(`Deposit to checking account`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    case 4: 
+        //Deposit savings
+        savingsAccount = savingsAccount + 100;
+        console.log(`Deposit to savings account`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    case 5:
+        //Transfer checking to savings
+        checkingAccount = checkingAccount - 100;
+        savingsAccount = savingsAccount + 100;
+        console.log(`Transfer money from checking to savings`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    case 6:
+        //Transfer savings to checking
+        savingAccout = savingsAccount - 100;
+        checkingAccount = checkingAccount + 100;
+        console.log(`Transfer money from savings to checking`)
+        console.log(`Checking: ${checkingAccount} Savings: ${savingsAccount}`)
+        break;
+    default:
+        console.log(`Please enter a valid account action, ie 1-6`)
 }
