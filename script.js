@@ -14,3 +14,21 @@ if (players.length >= 9) {
 } else {
     console.log('not enough players')
 }
+
+
+//## 3  - Grade Assigner
+const grade = 100
+
+if (grade >= 90) {
+    console.log('A')
+} else if (grade <= 89 && grade >= 80) {
+    console.log('B')
+} else if (grade <= 79 && grade >= 70) {
+    console.log('C')
+} else if (grade <= 69 && grade >= 65) {
+    console.log('D')
+} else if (grade < 65) {
+        console.log('F')
+} else {
+    console.log('Please enter a valid grade')
+}
