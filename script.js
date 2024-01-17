@@ -7,3 +7,14 @@ if (temperature > 75) {
 } else {
     console.log("It is cold");
 }
+
+//Prompt 2 - Team Player
+//Create an array of names for your softball team. Then run a conditional to test the length of the array. If the array's length is 9 or more, log "Play ball!" to the console. If it is less than 9, log "not enough players" to the console.
+let softballTeam = ['Tanya', 'Nikki', 'Rosie', 'May'];
+if (softballTeam.length > 9) {
+    console.log('Play Ball');
+} else if (softballTeam.length < 9) {
+    console.log('Not enough players');
+} else {
+    console.log('check your code!');
+}
