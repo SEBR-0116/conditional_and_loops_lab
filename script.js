@@ -18,3 +18,25 @@ if (softballTeam.length > 9) {
 } else {
     console.log('check your code!');
 }
+
+//Prompt 3 - Grade Assigner
+//Create an if/else if/else conditional that takes in a numeric grade and assigns it a letter value, logging the letter to your console. If a grade is a 90 or above, it returns an A. If it is between 80 and 89, the student recieves a B. 70-79 will give you a C. From 65 to 69 gives a D, and below a 65 returns a Failing mark. Finally, you should have a catching message that returns "Please enter a valid grade" if the inputed value is not a number
+let studentNumGrade = 75;
+let studentLetterGrade;
+if (studentNumGrade >= 90) {
+    studentLetterGrade = "A";
+    console.log(`Student scored ${studentNumGrade} points. They'll receive a ${studentLetterGrade} for the class`);
+} else if (studentNumGrade < 90 && studentNumGrade > 79) {
+  studentLetterGrade = "B";
+  console.log(`Student scored ${studentNumGrade} points. They'll receive a ${studentLetterGrade} for the class`);
+} else if (studentNumGrade < 80 && studentNumGrade > 69) {
+  studentLetterGrade = "C";
+  console.log(`Student scored ${studentNumGrade} points. They'll receive a ${studentLetterGrade} for the class`);
+} else if (studentNumGrade < 70 && studentNumGrade > 64) {
+  studentLetterGrade = "D";
+  console.log(`Student scored ${studentNumGrade} points. They'll receive a ${studentLetterGrade} for the class`);
+} else if (studentNumGrade < 65) {
+  console.log(`Student did not score enough points. They'll receive a 'Failing Mark' for the class`);
+} else {
+  console.log("Please enter a valid grade");
+}
