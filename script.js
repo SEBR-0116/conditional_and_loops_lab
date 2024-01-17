@@ -77,6 +77,16 @@ let grade = 77
 
 // 5 - High Five!
 
-for (let i = 0; i <= 50 ; i += 5){
-    console.log(i)
+// for (let i = 0; i <= 50 ; i += 5){
+//     console.log(i)
+// }
+//end of High Five!
+
+// 6 - Its Hip to Loop Squares
+
+for ( let i = 0; i <=10 ; i++) {
+    console.log(i * i)
 }
+// end of Its Hip to Loop Squares
+
+// 
