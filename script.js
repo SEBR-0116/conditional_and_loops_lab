@@ -100,9 +100,16 @@ for(let i = 0; i < 50; i++) {
 }
 */
 //FFF Foods
-let FOODS = [`mac'n cheese`, `falafel`, `pizza`, `sushi`];
+/*let FOODS = [`mac'n cheese`, `falafel`, `pizza`, `sushi`];
 for(let i = 0; i <= FOODS.length; i++) {
     if(FOODS[i].charAt[0] == "f") {
         console.log(FOODS[i]);
     }
 }
+*/
+//Bonus 8
+
+
+//Bonus 9
+
+
