@@ -41,7 +41,7 @@ else {
 }
 */
 //ATM Function
-let checkingAccount = 250;
+/*let checkingAccount = 250;
 let savingsAccount = 1000;
 let actionType = 1;
 switch(actionType) {
@@ -85,4 +85,11 @@ switch(actionType) {
         break;
     default:
         console.log(`Please enter a valid account action, ie 1-6`)
+}
+*/
+//High Five!
+let num = 0;
+for(let i = 0; i < 50; i++) {
+    console.log(num);
+    num = num + 5;
 }
