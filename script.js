@@ -95,6 +95,14 @@ for(let i = 0; i < 50; i++) {
 }
 */
 //It's Hip to Loop Squares
-for(let i = 0; i < 10; i++) {
+/*for(let i = 0; i < 10; i++) {
     console.log((i ** 2));
+}
+*/
+//FFF Foods
+let FOODS = [`mac'n cheese`, `falafel`, `pizza`, `sushi`];
+for(let i = 0; i <= FOODS.length; i++) {
+    if(FOODS[i].charAt[0] == "f") {
+        console.log(FOODS[i]);
+    }
 }
