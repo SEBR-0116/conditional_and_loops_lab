@@ -36,11 +36,12 @@ Run a For Loop that starts at 0, ends at 10, and logs each number squared (your 
 
 Create an array of foods, then loop through them. Run a conditional in your loop with the charAt[0] method so that you are only logging to your console foods that start with the letter F
 
-## 8 - Even and Odd Numbers
+## Bonus 8 - Even and Odd Numbers
 
 Run a loop that goes between 20 and 40, but only logs Even numbers. Then create a new loop that does the same for Odds
 
 
-## 9 - FizzBuzz!
+
+## Bonus 9 - FizzBuzz!
 
 A coding classic, run a loop that counts and logs every number between 1 and 30. If a number is divisible by 3, log "Fizz", if it is divisible by 5, log "Buzz", and if it is divisible by 3 and 5, log "FizzBuzz"
