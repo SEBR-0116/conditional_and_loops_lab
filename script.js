@@ -40,3 +40,30 @@ if (studentNumGrade >= 90) {
 } else {
   console.log("Please enter a valid grade");
 }
+
+//Prompt 4
+//Create 3 values, a checkingAccount, a savingsAccount, and an action type, then assign each account to have any amount of $$$ in it. Then, make a switch statement that has at least 3 different actions: Withdraw, Deposit, and Transfer. If you have a case of Withdraw, subtract $100 from one of your accounts. If your case is Deposit, add $100 to an account. If you choose Transfer, take away 100 from one account and add it to the other.
+let checkingAccount = 1000;
+let savingsAccount = 500;
+let actionType = 'transfer';
+switch (actionType) {
+  case 'withdraw':
+    // subtract $100 from one of your accounts;
+    checkingAccount -=100;
+    console.log(`You withdrew $100 from your checking account. Your new balance is ${checkingAccount}`);
+    break;
+  case 'deposit':
+    //add $100 to an account;
+    savingsAccount +=100;
+    console.log(`You added $100 to your savings account. Your new balance is ${savingsAccount}`);
+    break;
+  case 'transfer':
+    //take away 100 from one account and add it to the other;
+    savingsAccount -=100;
+    checkingAccount +=100;
+    console.log(`You've moved $100 from your savings account to your checking account. Your new balance in savings is ${savingsAccount}. Checking account balance is now ${checkingAccount}`);
+    break;
+}
+
+
+
