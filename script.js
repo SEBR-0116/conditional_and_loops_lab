@@ -1,4 +1,4 @@
-/*
+
 //## 1 - Weather Report
 let temperature = 50
 if (temperature > 75) {
@@ -80,7 +80,7 @@ const foods=['potatoes', 'grapes', 'chips', 'fava beans', 'fudge', 'salsa']
     console.log(foods[i])
   }
 }
-*/
+
 
 
 //## Bonus 8 - Even and Odd Numbers
@@ -89,4 +89,20 @@ for (let i = 20; i <= 40; i += 2) {
   }
 for (let i = 21; i <= 40; i += 2) {
     console.log(i);
+}
+
+
+
+
+//## Bonus 9 - FizzBuzz!
+for (let i = 1; i <= 30; i++) {
+    if (i % 3 === 0 && i % 5 ===0) {
+        console.log('FizzBuzz');
+    } else if (i % 3 === 0){
+        console.log('Buzz');
+    } else if (i % 5 === 0){
+        console.log('Fizz');
+    } else {
+    console.log(i);
+  }
 }
