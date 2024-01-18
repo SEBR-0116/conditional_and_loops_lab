@@ -1,4 +1,4 @@
-/*
+
 //## 1 - Weather Report
 let temperature = 50
 if (temperature > 75) {
@@ -69,7 +69,7 @@ for (let i = 0; i <= 50; i += 5) {
 for (let i = 0; i <= 10; i++) {
     console.log(i * i);
   }
-  */
+ 
 
 
 
