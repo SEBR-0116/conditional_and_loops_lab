@@ -22,7 +22,7 @@
 // }
 //end of Team Player
 
-//3 - Grade Assinger -
+//3 - Grade Assigner -
 
 //let grade = 77
 
@@ -44,7 +44,7 @@
 // else if (grade <= 64){
 //     console.log("F")
 // }
-//end of Grade Assinger
+//end of Grade Assigner
 
 //4 - ATM Function
 
@@ -91,9 +91,9 @@
 
 // 7 - F F F Foods
 
-let foods = [ "Cake", "Burger", "Salad", "Fruit", "Sushi", "Fish", "Fried Chicken"];
-for (let i = 0; i< foods.length; i++) {
-    if (foods[i].charAt(0) === "F") 
-    console.log(foods[i]);
-}
+// let foods = [ "Cake", "Burger", "Salad", "Fruit", "Sushi", "Fish", "Fried Chicken"];
+// for (let i = 0; i< foods.length; i++) {
+//     if (foods[i].charAt(0) === "F") 
+//     console.log(foods[i]);
+// }
 // end of F F F Foods
