@@ -34,7 +34,7 @@ Run a For Loop that starts at 0, ends at 10, and logs each number squared (your 
 
 ## 7 - F F F Foods
 
-Create an array of foods, then loop through them. Run a conditional in your loop with the charAt[0] method so that you are only logging to your console foods that start with the letter F
+Create an array of foods, then loop through them. Run a conditional in your loop with the charAt(0) method so that you are only logging to your console foods that start with the letter F
 
 ## Bonus 8 - Even and Odd Numbers
 
