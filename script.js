@@ -54,28 +54,41 @@ console.log('not enough players')
                                     //**********
                              /* 4- ATM Function */
 
-  let checkAcc = 15000
-  let savAcc = 25000
+//   let checkAcc = 15000
+//   let savAcc = 25000
   
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+// const readline = require('readline').createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
 
-readline.question('Type what would you like to do:  Deposit, Withdraw, Transfer ', ActionType =>{
-    switch(ActionType){
-        case 'Withdraw':
-             console.log('Your New Checking Account Balance is  ' , checkAcc -= 100)
-        break;
-        case 'Deposit':
-            console.log('Your New Savings Account Balance is  ' ,savAcc += 100)
-            break;
-        case 'Transfer' :
-            console.log('Your new balaces are : Checking ', checkAcc -=100 )
-            console.log('Your new balaces are : Savings ', checkAcc +=100 )
-            break;
+// readline.question('Type what would you like to do:  Deposit, Withdraw, Transfer ', ActionType =>{
+//     switch(ActionType){
+//         case 'Withdraw':
+//              console.log('Your New Checking Account Balance is  ' , checkAcc -= 100)
+//         break;
+//         case 'Deposit':
+//             console.log('Your New Savings Account Balance is  ' ,savAcc += 100)
+//             break;
+//         case 'Transfer' :
+//             console.log('Your new balaces are : Checking ', checkAcc -=100 )
+//             console.log('Your new balaces are : Savings ', checkAcc +=100 )
+//             break;
 
-    } 
-    readline.close();
-});
+//     } 
+//     readline.close();
+// });
   
+                                                //**********
+                                                // HIGH FIVE!   
+  
+// for ( let i=0;  i<=50; i+=5  ){
+//     let number = i
+//     console.log(number)
+    
+// }
+for (let i = 0; i<=50; i+=5 ){
+
+console.log(i)
+
+}
