@@ -56,6 +56,25 @@ switch(actionType) {
         break;
 }
 
+//or
+
+switch(actionType[1]) {
+    case 'Withdraw':
+      console.log(`Checking Account: $${checkingAccount - 100}`);
+      console.log(`Savings Account: $${savingsAccount}`);
+      break;
+    case 'Deposit':
+      console.log(`Checking Account: $ ${checkingAccount + 100.00}`);
+      console.log(`Savings Account: $${savingsAccount}`);
+      break;
+    case 'Transfer':
+        console.log(`Checking Account: $ ${checkingAccount - 100.00}`);
+        console.log(`Savings Account: $${savingsAccount + 100.00}`);
+      break;
+    default:
+      console.log('Error: Invalid Entry');
+  }
+
 
 //## 5  - High Five!
 
