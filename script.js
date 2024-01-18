@@ -88,8 +88,25 @@ console.log(i)
 }*/
 
                                                  //**********
-                                                /* ITS HIP TO LOOP Squares */
+                                                /* ITS HIP TO LOOP Squares 
 for (i=0; i<=10; i++){
     console.log(Math.pow(i,2))
     
 }
+*/
+                                                   //**********
+                                                /* FFF FOODS */
+let foods = ['Kebsa','Aseed','Chilaquiles','Hamburgers','French Fries','Foul','Fajitas','Frech Toast','Fried Chicken']
+
+for(let i = 0; i < foods.length; i++){
+
+    if (foods[i].charAt(0) == 'f' || foods[i].charAt(0) == 'F') {
+        console.log(foods[i]);
+      
+    }       
+ }
+   
+
+ 
+
+
