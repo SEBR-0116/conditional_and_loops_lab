@@ -24,26 +24,26 @@
 
 //3 - Grade Assigner -
 
-//let grade = 77
+// let grade = 77
 
 // if(isNaN(grade)){
-//     console.log("Please enter a valid number")
-// }
-// else if (grade >= 90){
-//     console.log("A")
-// }
+//      console.log("Please enter a valid number")
+//  }
+//  else if (grade >= 90){
+//      console.log("A")
+//  }
 // else if (grade >= 80 && grade <= 89){
-//     console.log("B")
-// }
-// else if (grade >= 70 && grade <= 79){
-//     console.log("C")
-// }
-// else if (grade >=65 && grade <= 69) {
-//     console.log("D")
+//      console.log("B")
+//  }
+//  else if (grade >= 70 && grade <= 79){
+//      console.log("C")
+//  }
+// else if (grade >= 65 && grade <= 69) {
+//     console.log("D");
 // }
 // else if (grade <= 64){
-//     console.log("F")
-// }
+//      console.log("F")
+//  }
 //end of Grade Assigner
 
 //4 - ATM Function
