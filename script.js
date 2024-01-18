@@ -41,7 +41,7 @@ if (studentNumGrade >= 90) {
   console.log("Please enter a valid grade");
 }
 
-//Prompt 4
+//Prompt 4 - ATM Function
 //Create 3 values, a checkingAccount, a savingsAccount, and an action type, then assign each account to have any amount of $$$ in it. Then, make a switch statement that has at least 3 different actions: Withdraw, Deposit, and Transfer. If you have a case of Withdraw, subtract $100 from one of your accounts. If your case is Deposit, add $100 to an account. If you choose Transfer, take away 100 from one account and add it to the other.
 let checkingAccount = 1000;
 let savingsAccount = 500;
@@ -64,6 +64,25 @@ switch (actionType) {
     console.log(`You've moved $100 from your savings account to your checking account. Your new balance in savings is ${savingsAccount}. Checking account balance is now ${checkingAccount}`);
     break;
 }
+//Prompt 5 - High Five
+//Create a for loop that starts at 0, ends at 50, and logs a number that increases by 5 each time it is run.
 
+for (let i = 0; i<=50; i+=5) {
+  console.log(i);
+}
 
+//Prompt 6 - Hip to Loop Squares
+//Run a For Loop that starts at 0, ends at 10, and logs each number squared (your answer should be 0, 1, 4, 9, 25....)
+for (let i = 0; i<=10; i++) {
+  console.log(i**2);
+}
 
+//prompt 7 -- FFF Foods
+//Create an array of foods, then loop through them. Run a conditional in your loop with the charAt[0] method so that you are only logging to your console foods that start with the letter F
+
+let food = ['fish','lettuce', 'farro'];
+for (let i = 0; i<food.length; i++) {
+  if () {
+    console.log();
+  }
+}
