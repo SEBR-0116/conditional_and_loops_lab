@@ -55,11 +55,17 @@ switch(actionType) {
         console.log('Transfer completed.');
         break;
 }
-*/
+
 
 //## 5  - High Five!
 
 for (let i = 0; i <= 50; i += 5) {
     console.log(i);
   }
-  
+*/
+
+
+//## 6 - Its Hip to Loop Squares
+for (let i = 0; i <= 10; i++) {
+    console.log(i * i);
+  }
