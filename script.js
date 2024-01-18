@@ -1,4 +1,4 @@
-
+/*
 //## 1 - Weather Report
 let temperature = 50
 if (temperature > 75) {
@@ -79,4 +79,14 @@ const foods=['potatoes', 'grapes', 'chips', 'fava beans', 'fudge', 'salsa']
     if (foods[i].charAt(0) == 'f') {
     console.log(foods[i])
   }
+}
+*/
+
+
+//## Bonus 8 - Even and Odd Numbers
+for (let i = 20; i <= 40; i += 2) {
+    console.log(i);
+  }
+for (let i = 21; i <= 40; i += 2) {
+    console.log(i);
 }
