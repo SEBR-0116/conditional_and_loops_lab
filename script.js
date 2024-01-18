@@ -1,3 +1,4 @@
+console.log(" ")
 //1 - Weather Report
 /*
 Create a variable called Temperature and set a number to its value,
@@ -12,3 +13,168 @@ if (temperature < 75 )
 } else {
     console.log("it is cold")
 }
+console.log(" ")
+
+//2 - Team Player
+
+/*
+Create an array of names for your softball team. Then run a conditional 
+to test the length of the array. If the array's length is 9 or more, 
+log "Play ball!" to the console. If it is less than 9, log "not enough 
+players" to the console.*/
+
+let cricket = ['Sri lanka','England','Australia',"India",'New Zeland']
+
+    if(cricket.length >= 9)
+    {
+        console.log("Play ball!")
+    }
+    else
+    {
+        console.log("not enough players/team")
+    }
+
+console.log(" ")
+
+//3 - Grade Assigner -
+
+/*
+Create an if/else if/else conditional that takes in a numeric grade 
+and assigns it a letter value, logging the letter to your console. 
+If a grade is a 90 or above, it returns an A. If it is between 80 and 89, 
+the student recieves a B. 70-79 will give you a C. From 65 to 69 gives a D,
+ and below a 65 returns a Failing mark. Finally, you should have a 
+ catching message that returns "Please enter a valid grade" if the inputed 
+ value is not a number
+*/
+
+let grade = 75
+if(isNaN(grade)){
+    console.log("Please enter a valid grade")}
+    else{
+if(grade >= 90){
+    console.log("A")
+} else if (grade >= 80 && grade <= 89){
+    console.log("B")
+} else if (grade >= 70 && grade <= 79){
+    console.log("C")
+} else if(grade >= 65 && grade <= 69){
+    console.log("D")
+} else {
+    console.log("F")
+}
+    }
+console.log(" ")
+
+//4 - ATM Function
+/*
+Create 3 values, a checkingAccount, a savingsAccount, and an action type, 
+then assign each account to have any amount of $$$ in it. Then, make a switch
+ statement that has at least 3 different actions: Withdraw, Deposit, and Transfer. 
+ If you have a case of Withdraw, subtract $100 from one of your accounts. 
+ If your case is Deposit, add $100 to an account. If you choose Transfer, take away 
+ 100 from one account and add it to the other.
+*/
+let checkingAccount,savingsAccount,actionType
+checkingAccount = 550
+savingsAccount =750
+actionType ='Withdraw'
+
+switch (actionType){
+    case 'Withdraw':
+        checkingAccount = checkingAccount - 100
+        console.log(`Dear customer account status  Checking Balance ${checkingAccount} `)
+        console.log ("Thank you fo using out ATM service")
+        break;
+
+    case 'Deposit':
+        savingsAccount = savingsAccount + 100
+        console.log(`Dear customer account status Saving Balance ${savingsAccount}`)
+        console.log ("Thank you fo using out ATM service")
+        break;
+
+    case 'Transfer':
+        savingsAccount = checkingAccount -100
+        console.log(`Dear customer account status  Checking Balance ${checkingAccount} Saving Balance ${savingsAccount}`)
+        console.log ("Thank you fo using out ATM service")
+        break;
+    default:
+        console.log(`Dear customer account status  Checking Balance ${checkingAccount} Saving Balance ${savingsAccount}`)
+        console.log ("Thank you fo using out ATM service")
+}
+
+
+console.log(" ")
+
+//5 - High Five!
+/*Create a for loop that starts at 0, ends at 50, and logs a number that increases by 5 each time it is run.*/
+for(let i =0;i<=50;i+=5){
+    console.log(i)
+}
+
+
+console.log(" ")
+
+//6 - Its Hip to Loop Squares
+/*Run a For Loop that starts at 0, ends at 10, and logs each number squared (your answer should be 0, 1, 4, 9, 25....)*/
+
+for(let i=0 ; i <=10;i++){
+
+    console.log(Math.pow(i,2))
+}
+
+console.log(" ")
+
+//7 - F F F Foods
+/*Create an array of foods, then loop through them. Run a conditional in your loop with the charAt[0] method so that
+ you are only logging to your console foods that start with the letter F */
+
+let food =["Pizza", "Cheeseburger", "Salad", "Chicken",'Pasta',"Fries","Fish","Faluda","Funnal Cake"]
+
+for(let i=0;i<food.length;i++){
+    if(food[i].charAt(0)=="F"){
+        console.log(food[i])
+    }
+}
+
+ console.log(" ")
+
+ // Bonus 8 - Even and Odd Numbers
+ /*Run a loop that goes between 20 and 40, but only logs Even numbers. Then create a new loop that does the same for Odds*/
+console.log("Found Evevn Numbers between 20 and 40")
+ for(let p=20;p <=40;p++)
+    {
+        if(p%2===0){
+            console.log(p)
+        }
+    }
+
+console.log("Found Odd Numbers between 20 and 40")
+for (let q=20;q <= 40;q++)
+{
+    if(q%2!==0){
+        console.log(q)
+    }
+
+}
+
+ console.log(" ")
+
+ //Bonus 9 - FizzBuzz!
+/* A coding classic, run a loop that counts and logs every number between 1 and 30.
+ If a number is divisible by 3, log "Fizz", if it is divisible by 5, log "Buzz", 
+ and if it is divisible by 3 and 5, log "FizzBuzz" */
+
+ for(let i=1;i <=30;i++){
+    if(i%3===0 && i%5===0){
+        console.log("FizzBUzz")
+    }
+    else if(i%3===0){
+        console.log("FiZZ")
+    } else if (i%5===0){
+        console.log("Buzz")
+    } 
+
+ }
+
+ console.log(" ")
