@@ -82,7 +82,8 @@ for (let i = 0; i<=10; i++) {
 
 let food = ['fish','lettuce', 'farro'];
 for (let i = 0; i<food.length; i++) {
-  if () {
-    console.log();
+  if (food[i].charAt[0] = 'f') {
+    console.log(i);
   }
 }
+//not yet working
