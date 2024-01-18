@@ -5,3 +5,5 @@ for (let i = 0; i < foods.length; i++) {
         console.log(foods[i])
     }
 }
+
+// you only need [i] when inside a function or loop
