@@ -38,8 +38,8 @@ if (typeof numericGrade === 'number') {
 //4 - ATM Function
 let checkingAccount = 1200;
 let savingsAccount = 1300;
-let actionType = "Transfer"; 
-switch (actionType) {
+let actionType = ["Transfer","Withdraw","Deposit"]; 
+switch (actionType[0]) {
   case "Withdraw":
     checkingAccount -= 100;
     console.log("Withdrawn $100 from the checking account.");
