@@ -62,10 +62,21 @@ switch(actionType) {
 for (let i = 0; i <= 50; i += 5) {
     console.log(i);
   }
-*/
+
 
 
 //## 6 - Its Hip to Loop Squares
 for (let i = 0; i <= 10; i++) {
     console.log(i * i);
   }
+  */
+
+
+
+//## 7 - F F F Foods
+const foods=['potatoes', 'grapes', 'chips', 'fava beans', 'fudge', 'salsa']
+  for (let i = 0; i < foods.length; i++) {
+    if (foods[i].charAt(0) == 'f') {
+    console.log(foods[i])
+  }
+}
