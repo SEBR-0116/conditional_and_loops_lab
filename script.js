@@ -108,9 +108,9 @@ for(let i = 0; i < foods.length; i++){
   */ 
 
                                                //**********
-                                                /* Even and Odd */
+                                                /* Even and Odd
 console.log ('This are even numbers: ')
-
+//i+=2 increments by 2 
 for (i=20; i<=40; i+=2){
     
     console.log (i)
@@ -119,9 +119,26 @@ for (i=20; i<=40; i+=2){
  console.log ('This are odd numbers : ')
 
  for (i=20; i<=40; i++){
+    // i & 1 === 1 evaluates if the number is odd 
     if (i & 1 === 1){
         console.log (i)
     } 
     
  }
+ */
+                                                   //**********
+                                                /* FizzBuzz*/
+
+for (i=1; i<=30; i++){
+
+   if (i % 3 === 0 ){
+    console.log('Fizz '+ i)
+
+  }
+  else if (i % 5 ===   0 ){
+    console.log('Buzz '+ i)
+  }
+ 
+}
+   
 
