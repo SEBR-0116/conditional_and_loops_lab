@@ -95,7 +95,7 @@ for (i=0; i<=10; i++){
 }
 */
                                                    //**********
-                                                /* FFF FOODS */
+                                                /* FFF FOODS 
 let foods = ['Kebsa','Aseed','Chilaquiles','Hamburgers','French Fries','Foul','Fajitas','Frech Toast','Fried Chicken']
 
 for(let i = 0; i < foods.length; i++){
@@ -105,8 +105,23 @@ for(let i = 0; i < foods.length; i++){
       
     }       
  }
-   
+  */ 
 
+                                               //**********
+                                                /* Even and Odd */
+console.log ('This are even numbers: ')
+
+for (i=20; i<=40; i+=2){
+    
+    console.log (i)
+ }
  
+ console.log ('This are odd numbers : ')
 
+ for (i=20; i<=40; i++){
+    if (i & 1 === 1){
+        console.log (i)
+    } 
+    
+ }
 
