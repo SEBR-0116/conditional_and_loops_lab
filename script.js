@@ -80,15 +80,16 @@ console.log('not enough players')
 // });
   
                                                 //**********
-                                                // HIGH FIVE!   
-  
-// for ( let i=0;  i<=50; i+=5  ){
-//     let number = i
-//     console.log(number)
-    
-// }
-for (let i = 0; i<=50; i+=5 ){
+                                                /* HIGH FIVE!   
+  for (let i = 0; i<=50; i+=5 ){
 
 console.log(i)
 
+}*/
+
+                                                 //**********
+                                                /* ITS HIP TO LOOP Squares */
+for (i=0; i<=10; i++){
+    console.log(Math.pow(i,2))
+    
 }
