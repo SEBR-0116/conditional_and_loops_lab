@@ -5,22 +5,19 @@
                           //**********
                           //Team Player 
 
-//let softballTeam = ['Mario','Andrew','Moe','Sergio','Miguel','David','Nick','Mark','Diego']
+// softballTeam = ['Mario','Andrew','Moe','Sergio','Miguel','David','Nick','Mark','Diego']
 
-/*using Ternary Operator
-softballTeam.length >= 9 ? console.log('Play ball!') :  console.log('not enough players')
-*/
+// /*using Ternary Operator*/
+// softballTeam.length >= 9 ? console.log('Play ball!') :  console.log('not enough players')
+//  //using if/else
 
-/* using if/else
+// if (softballTeam.length >= 9 ){
+//  console.log('Play ball!')
 
-if (softballTeam.length >= 9 ){
- console.log('Play ball!')
+// } else{
 
-} else{
-console.log('not enough players')
-} 
-
-*/ 
+// console.log('not enough players')
+// } 
                                  //**********
                              /* 3-GRADE ASSIGNER */
 
@@ -95,7 +92,7 @@ for (i=0; i<=10; i++){
 }
 */
                                                    //**********
-                                                /* FFF FOODS 
+                                                // FFF FOODS 
 let foods = ['Kebsa','Aseed','Chilaquiles','Hamburgers','French Fries','Foul','Fajitas','Frech Toast','Fried Chicken']
 
 for(let i = 0; i < foods.length; i++){
@@ -105,7 +102,7 @@ for(let i = 0; i < foods.length; i++){
       
     }       
  }
-  */ 
+ 
 
                                                //**********
                                                 /* Even and Odd
@@ -128,17 +125,18 @@ for (i=20; i<=40; i+=2){
  */
                                                    //**********
                                                 /* FizzBuzz*/
+//i % 3  && i % 5 ===   0 
 
-for (i=1; i<=30; i++){
+// for (i=1; i<=30; i++){
 
-   if (i % 3 === 0 ){
-    console.log('Fizz '+ i)
+//    if (i % 3 === 0 ){
+//     console.log('Fizz '+ i)
 
-  }
-  else if (i % 5 ===   0 ){
-    console.log('Buzz '+ i)
-  }
+//   }
+//   else if (i % 5 ===   0 ){
+//     console.log('Buzz '+ i)
+//   }
  
-}
+// }
    
 
