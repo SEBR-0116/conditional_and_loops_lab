@@ -8,7 +8,6 @@
 
 Create a variable called Temperature and set a number to its value, then create a conditional that measures this temperature. If the temperature is above 75, log "it is warm" to your console. If not, log "it is cold"
 
-
 ## 2  - Team Player
 
 Create an array of names for your softball team. Then run a conditional to test the length of the array. If the array's length is 9 or more, log "Play ball!" to the console. If it is less than 9, log "not enough players" to the console.
@@ -21,7 +20,7 @@ Create an if/else if/else conditional that takes in a numeric grade and assigns 
 
 ##  4 - ATM Function
 
-Create 3 values, a checkingAccount, a savingsAccount, and an action type, then assign each account to have any amount of $$$ in it. Then, make a switch statement that has at least 3 different actions: Withdraw, Deposit, and Transfer. If you have a case of Withdraw, subtract $100 from one of your accounts. If your case is Deposit, add $100 to an account. If you choose Transfer, take away 100 from one account and add it to the other. 
+Create 3 values, a checkingAccount, a savingsAccount, and an action type, then assign each account to have any amount of $$$ in it. Then, make a switch statement that has at least 3 different actions: Withdraw, Deposit, and Transfer. If you have a case of Withdraw, subtract $100 from one of your accounts. If your case is Deposit, add $100 to an account. If you choose Transfer, take away 100 from one account and add it to the other.
 
 
 ## 5  - High Five!
